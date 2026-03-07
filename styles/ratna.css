@@ -27,6 +27,7 @@ color: #727272;
 }
 .navbar{
   justify-content: space-between;
+  align-items: center;
   
 }
 .nav-links{
@@ -42,5 +43,35 @@ color: #727272;
 .navbar,.banner{
   max-width: 100%;
   /* border: 2px solid black; */
-  margin: 0 100px;
+  margin: 0 5%;
+}
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.banner-content{
+  /* width: 800px; */
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.btn-primary{
+  background-color: #FF900E;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-width: 600;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+img{
+  width: 100%;
+}
+.m{
+  margin: 0 5%;
 }
