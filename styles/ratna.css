@@ -18,7 +18,10 @@ color: #727272;
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
 }
-
+.main{
+  max-width: 100%;
+  margin: 0 6%;
+}
 
 
 
@@ -74,4 +77,42 @@ img{
 }
 .m{
   margin: 0 5%;
+}
+  @media screen and (max-width:576px) {
+    .navbar,
+    .nav-links,
+    .teams
+     {
+      flex-direction: column;
+      
+    }
+
+    
+  }
+  .teams{
+    /* border: 2px solid black; */
+    align-items: center;
+  }
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2px;
+  width: 150%;
+}
+main > section{
+  margin-top: 130px;
+}
+.our-features{
+  /* width: 40%; */
+  padding-left: 130px;
+  max-width: 530px;
+}
+@media screen and (max-width:576px) {
+  .team-img-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .our-features{
+    padding: 0;
+  }
+  
 }
